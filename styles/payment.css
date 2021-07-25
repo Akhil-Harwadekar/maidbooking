@@ -1,0 +1,21 @@
+body{
+    background: #c6f7f785;
+}
+#mainblock{
+    max-width: 650px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 10px gray;
+    background: #f7f7f7;
+}
+#heading{
+    color: white;
+    background: linear-gradient(45deg, #FC4668,#3F5EF8);
+    font-weight: 500;
+}
+#heading > h1{
+    font-size: 3em;
+    padding-left: 20px;
+}
+.invoiceH1{
+    color: red;
+}

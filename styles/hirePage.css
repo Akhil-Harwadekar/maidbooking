@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    /* background: linear-gradient(90deg, #f1f1f1, #f5f5f5); */
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #232943;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,orangered,orange);
+    border-radius: 3px;
+}
+.enquiryBlock{
+    position: fixed;
+    margin-top: 15%;
+    width: 12vw;
+    background: #c70505;
+    max-height: 5vh;
+    margin-left: 92.2vw;
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+.enquiryText{
+    text-transform: capitalize;
+    padding: 5px;
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.nav-item{
+    color: white;
+    margin-right: 2%;
+    font-size: 1.2em;
+}
+.nav-item:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    background-color: azure;
+}
+#heading{
+    background: linear-gradient(45deg, #FC4668,#3F5EF8);
+}
+.headingH1{
+    color: white;
+    font-size: 3.5em;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}
+/* #leftcol{
+    border: 1px solid blueviolet;
+} */
+label{
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+select{cursor: pointer;}
+#maleLabel,#femaleLabel{
+    color: black;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+input[type="text"], input[type="email"], #textarea{
+    border: 1.3px solid orangered ;
+    box-shadow: 0px 0.75px 1.5px orange;
+}
+input[type="text"]:focus, input[type="email"]:focus, #textarea:focus{
+    box-shadow: none;
+    border: none;
+    border: 2px solid black;
+}
+#featuresBlock{
+    border: 1px solid orangered;
+    /* box-shadow: 2px 3px 5px orangered; */
+    margin-bottom: 5%;
+}
+#featureHeading{
+    color: #f73a00;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.hireBtn{
+    background: linear-gradient(45deg, orangered, orange);
+    color: white;
+}
+.hireBtn:hover{
+    color: black;
+    text-decoration: none;
+}
+@media (max-width:400px) {
+    .enquiryBlock{
+        margin-top: 79%;
+        width: 35vw;
+        max-height: 3.5vh;
+        margin-left: 79.2vw;
+        border-radius: 5%;
+    }
+    .enquiryText{
+        font-size: 1em;
+        margin-top: -2.5%;
+    }
+}
